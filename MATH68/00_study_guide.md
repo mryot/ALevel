@@ -80,6 +80,80 @@
 
 ---
 
+## 2.5) จัดกลุ่มตามระดับความยาก-ง่าย (Difficulty Tier)
+
+แบ่งข้อสอบ 30 ข้อเป็น **3 ระดับ** เพื่อให้วางแผนลำดับการทำข้อสอบและจัดสรรเวลาได้ดีขึ้น
+
+### 🟢 ระดับง่าย (Easy) — 10 ข้อ
+> ใช้สูตรตรง ๆ 1–2 ขั้นตอน ทำได้ภายใน 2–3 นาที ควรเก็บคะแนนให้ครบ
+
+| # | ข้อ | เหตุผล |
+|---|---|---|
+| 1 | [เพาเวอร์เซต](MATH68/powerset_problem.md) | สูตร $|P(A)| = 2^n$ ตรง ๆ |
+| 2 | [เซต: ส่วนเติมเต็ม + เวนน์](MATH68/set_complement_venn_diagram_problem.md) | วาดภาพแล้วนับ |
+| 3 | [ตรรกศาสตร์: Contingency](MATH68/logic_proposition_problem.md) | ตารางค่าความจริงพื้นฐาน |
+| 4 | [ฟังก์ชันกำลังสอง: รายได้สูงสุด](MATH68/quadratic_function_problem.md) | จุดยอด $x=-b/(2a)$ |
+| 5 | [พหุนาม: ทฤษฎีบทเศษ](MATH68/polynomial_division_problem.md) | แทน $x=c$ ใน $P(x)$ |
+| 6 | [ค่าเฉลี่ย: ตัดข้อมูลออก](MATH68/mean_data_removal_problem.md) | $\sum x = n\bar x$ |
+| 7 | [วงรี: จุดตัดแกน Y](MATH68/ellipse_y_intercepts_problem.md) | อ่านค่า $b$ จากสมการ |
+| 8 | [ลำดับเลขคณิต + เรขาคณิต](MATH68/arithmetic_geometric_series_problem.md) | ใช้สูตร $a_n$, $S_n$ |
+| 9 | [ดอกเบี้ยทบต้น 2 ครั้ง](MATH68/compound_interest_two_deposits_problem.md) | $A = P(1+i)^n$ สองรอบ |
+| 10 | [เมทริกซ์: row operations](MATH68/matrix_row_operations_problem.md) | กฎ row op 3 ข้อ |
+
+### 🟡 ระดับปานกลาง (Medium) — 16 ข้อ
+> ต้องประยุกต์สูตร 2–3 ขั้นตอน หรือมีกับดักเล็กน้อย ใช้เวลา 4–6 นาที
+
+| # | ข้อ | จุดที่ต้องระวัง |
+|---|---|---|
+| 11 | [อสมการกำลังสอง + ค่าสัมบูรณ์](MATH68/quadratic_absolute_inequality_problem.md) | แยก 2 กรณี $\pm$ |
+| 12 | [โดเมนฟังก์ชันประกอบ](MATH68/composite_function_domain_problem.md) | เช็กทั้ง $D_f$ และ $f(x)\in D_g$ |
+| 13 | [exp & log](MATH68/exponential_log_problem.md) | จัดรูปฐานให้เท่ากัน |
+| 14 | [จำนวนเชิงซ้อน: \|z\|²](MATH68/complex_number_modulus_squared_problem.md) | $|z|^2 = z\bar z$ |
+| 15 | [สามเหลี่ยม: หา cos A](MATH68/triangle_sine_ratio_cosA_problem.md) | กฎ sine + cosine |
+| 16 | [ตรีโกณ: cot − tan](MATH68/trigonometry_cot_tan_problem.md) | ลดรูปเป็น $2\cot 2\theta$ |
+| 17 | [ความสูงสามเหลี่ยม (พิกัด)](MATH68/triangle_height_coordinate_geometry_problem.md) | สูตรระยะจุด-เส้น |
+| 18 | [พื้นที่สามเหลี่ยม 3D](MATH68/triangle_area_3d_vectors_problem.md) | $\tfrac12\|\vec u\times \vec v\|$ |
+| 19 | [ลิมิตจากกราฟ (ผลรวม/ผลคูณ)](MATH68/graph_limits_sum_product_problem.md) | เช็กลิมิตซ้าย/ขวา |
+| 20 | [อนุพันธ์จากกราฟเส้นสัมผัส](MATH68/derivative_from_tangent_graph_problem.md) | $f'(a)$ = ความชันเส้นสัมผัส |
+| 21 | [ลำดับเวียนเกิด (Recurrence)](MATH68/sequence_recurrence_problem.md) | คำนวณทีละพจน์ |
+| 22 | [ดีเทอร์มิแนนต์ 3×3 (พิจารณาข้อความ)](MATH68/determinant_statements_problem.md) | จำกฎ $\det(AB), \det(kA)$ |
+| 23 | [การนับ: รหัส 6 หลัก](MATH68/combinatorics_passcode_problem.md) | กฎคูณ + เงื่อนไขซ้ำ |
+| 24 | [ความน่าจะเป็น: รหัส 3 หลักล็อตเตอรี่](MATH68/lottery_code_probability_problem.md) | นับ favorable / total |
+| 25 | [Binomial: ลูกบอลแดง](MATH68/binomial_red_ball_probability_problem.md) | $\binom{n}{k}p^k(1-p)^{n-k}$ |
+| 26 | [การแจกแจงปกติ: น้ำผลไม้](MATH68/normal_distribution_milk_volume_problem.md) | Standardize $z = (x-\mu)/\sigma$ |
+
+### 🔴 ระดับยาก (Hard) — 4 ข้อ
+> หลายเงื่อนไขซ้อนกัน / ต้องวิเคราะห์ก่อนเลือกสูตร ใช้เวลา 7–10 นาที **ทำตอนท้าย**
+
+| # | ข้อ | เหตุผลที่ยาก |
+|---|---|---|
+| 27 | [เวกเตอร์หนึ่งหน่วย + sec θ](MATH68/unit_vectors_sec_theta_problem.md) | ผสมเวกเตอร์กับตรีโกณ |
+| 28 | [อนุพันธ์-ปริพันธ์ สัมพันธ์กัน](MATH68/calculus_derivative_integral_relation_problem.md) | ต้องใช้ FTC + chain rule |
+| 29 | [การจัดตารางเรียน (combinatorics ละเอียด)](MATH68/scheduling_detailed_combinatorics_problem.md) | หลายเงื่อนไข นับซ้อน |
+| 30 | [พิมพ์ 20 หน้าไม่มีผิด (Binomial + complement)](MATH68/proofreading_no_mistake_probability_problem.md) | ตีความ "ไม่มีผิด" + ใช้ส่วนเติมเต็ม |
+
+### 📊 สรุปการกระจาย
+
+| ระดับ | จำนวน | สัดส่วน | เวลาเฉลี่ย/ข้อ | เวลารวม |
+|---|---:|---:|---:|---:|
+| 🟢 ง่าย | 10 | 33% | 2–3 นาที | ≈ 25 นาที |
+| 🟡 ปานกลาง | 16 | 53% | 4–6 นาที | ≈ 80 นาที |
+| 🔴 ยาก | 4 | 14% | 7–10 นาที | ≈ 35 นาที |
+| **รวม** | **30** | **100%** | | **≈ 140 นาที** (เวลาสอบ 90 นาที → ต้องเร่ง!) |
+
+### 🎯 กลยุทธ์การทำข้อสอบ (90 นาที)
+
+| รอบ | ช่วงเวลา | ทำข้อ |
+|---|---|---|
+| รอบ 1 | 0–25 นาที | 🟢 ง่าย 10 ข้อ (กวาดคะแนนแน่ ๆ ก่อน) |
+| รอบ 2 | 25–75 นาที | 🟡 ปานกลาง 16 ข้อ (≈ 3 นาที/ข้อ) |
+| รอบ 3 | 75–87 นาที | 🔴 ยาก 4 ข้อ (เน้นข้อที่ถนัด) |
+| รอบ 4 | 87–90 นาที | ตรวจคำตอบ + เติมข้อที่เดา |
+
+> **กฎเหล็ก:** ถ้าข้อใดเกิน 5 นาทียังไม่ได้ → **ข้ามทันที** กลับมาตอนสุดท้าย
+
+---
+
 ## 3) สูตรหลักต้องท่อง (Cheat Sheet)
 
 ### 3.1 เซต / ตรรกศาสตร์
